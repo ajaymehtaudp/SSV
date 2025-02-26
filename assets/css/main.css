@@ -1353,11 +1353,11 @@ section,
 }
 
 .pricing .icon {
-  margin: 30px auto 20px auto;
-  width: 70px;
-  height: 70px;
+  margin: 15px auto 0px auto;
+  width: 100px;
+  height: 50px;
   background: var(--accent-color);
-  border-radius: 50%;
+  border-radius: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1372,7 +1372,7 @@ section,
   line-height: 0;
 }
 
-.pricing .icon::before {
+/* .pricing .icon::before {
   position: absolute;
   content: "";
   height: 86px;
@@ -1392,7 +1392,7 @@ section,
   background: color-mix(in srgb, var(--accent-color), transparent 90%);
   transition: all 0.3s ease-out 0s;
   transform: translateZ(-2px);
-}
+} */
 
 .pricing h4 {
   font-size: 48px;
