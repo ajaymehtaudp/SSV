@@ -485,7 +485,7 @@ h6 {
 }
 
 .footer .footer-about .logo img {
-  max-height: 40px;
+  max-height: 110px;
   margin-right: 6px;
 }
 
@@ -868,13 +868,13 @@ section,
   overflow: hidden;
 }
 
-.clients .client-logo img {
+/* .clients .client-logo img {
   padding: 20px 40px;
   max-width: 90%;
   transition: 0.3s;
   opacity: 0.5;
   filter: grayscale(100);
-}
+} */
 
 .clients .client-logo img:hover {
   filter: none;
@@ -1335,7 +1335,7 @@ section,
 .pricing .pricing-item {
   background-color: var(--surface-color);
   box-shadow: 0 3px 20px -2px rgba(0, 0, 0, 0.1);
-  padding: 60px 40px;
+  padding: 20px 3px;
   height: 100%;
   position: relative;
   border-radius: 15px;
