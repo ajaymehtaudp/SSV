@@ -1339,10 +1339,16 @@ section,
 .pricing .pricing-item {
   background-color: var(--surface-color);
   box-shadow: 0 3px 20px -2px rgba(0, 0, 0, 0.1);
-  padding: 20px 3px;
+  padding: 5px 3px;
   height: 100%;
   position: relative;
   border-radius: 15px;
+}
+.day {
+  text-align: center;
+  color: #0707ef;
+  font-weight: 700;
+  font-size: 17px;
 }
 
 .pricing h3 {
@@ -1414,7 +1420,7 @@ section,
 }
 
 .pricing ul {
-  padding: 20px 0;
+  padding: 10px 0;
   list-style: none;
   color: color-mix(in srgb, var(--default-color), transparent 20%);
   text-align: left;
@@ -1422,7 +1428,7 @@ section,
 }
 
 .pricing ul li {
-  padding: 10px 0;
+  padding: 5px 0;
   display: flex;
   align-items: center;
 }
